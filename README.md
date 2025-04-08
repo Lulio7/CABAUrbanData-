@@ -4,6 +4,25 @@ This project analyzes the evolution of construction activity in the City of Buen
 
 ---
 
+## 📌 Business Questions Answered
+
+- How has construction activity evolved year-over-year?
+- Which neighborhoods show the highest volume of new works?
+- Are most projects small-scale or large developments?
+- What are the predominant purposes of construction?
+- When are most projects initiated throughout the year?
+
+---
+
+## 🧩 Tools Used
+
+- Python (ETL preprocessing)
+- Power BI
+- Power Query (M)
+- DAX for KPI creation
+
+---
+
 ## 📂 Dataset
 
 - Source: [Buenos Aires Open Data Portal](https://data.buenosaires.gob.ar/dataset/obras-iniciadas)
@@ -40,36 +59,11 @@ This project analyzes the evolution of construction activity in the City of Buen
 - `%ShareByPurpose`: Participation of each project purpose over total works
 
 ### 4. Visualizations
-- Interactive Maps: Distribution of works by neighborhood
 - Time Series: Monthly and yearly construction trends
 - Area Distribution: Bar chart showing construction scale
 - Slicers: Year, Purpose, Neighborhood, Area bin
 
----
 
-## 📌 Business Questions Answered
-
-- How has construction activity evolved year-over-year?
-- Which neighborhoods show the highest volume of new works?
-- Are most projects small-scale or large developments?
-- What are the predominant purposes of construction?
-- When are most projects initiated throughout the year?
-
----
-
-## 🧩 Tools Used
-
-- Python (ETL preprocessing)
-- Power BI
-- Power Query (M)
-- DAX for KPI creation
-- Geo-Spatial Visualization in Power BI
-
----
-
-## 📈 Preview
-
-Add a screenshot of the dashboard or GIF here.
 
 ---
 
